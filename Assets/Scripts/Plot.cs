@@ -34,14 +34,15 @@ public class Plot : MonoBehaviour
             case PlotState.Empty:   
                 SetState(PlotState.Tilled); 
                 break;
-            case PlotState.Tilled:  
-                if (cropType == null)
+            case PlotState.Tilled:
+                CropType selected = CropSelector.Instance.SelectedCrop;
+                if (selected == null)
                 {
-                    Debug.LogWarning($"No CropType assigned on {gameObject.name}");
+                    Debug.LogWarning("No crop selected!");
                     return;
                 }
-
-                SetState(PlotState.Planted); 
+                cropType = selected;
+                SetState(PlotState.Planted);
                 StartGrowing();
                 break;
             case PlotState.Planted: 

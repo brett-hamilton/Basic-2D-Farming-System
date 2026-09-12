@@ -10,6 +10,8 @@ public class InventoryManager : MonoBehaviour
 
     public int Currency { get; private set; } = 0;
 
+    public CropType SelectedCrop { get; set; } = null;
+
     void Awake()
     {
         if (Instance != null && Instance != this)

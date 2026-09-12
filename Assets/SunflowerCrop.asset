@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d38aa7203d6e4dbfa78838175591433, type: 3}
-  m_Name: NewCrop
+  m_Name: SunflowerCrop
   m_EditorClassIdentifier: Assembly-CSharp::CropType
-  cropName: Carrot
-  growthTime: 5
-  sellValue: 10
-  grownColor: {r: 1, g: 0.6076495, b: 0, a: 1}
+  cropName: Sunflower
+  growthTime: 10
+  sellValue: 20
+  grownColor: {r: 0.7735849, g: 0.736125, b: 0.23718406, a: 1}
