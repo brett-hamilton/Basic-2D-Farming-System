@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 0b2b57e25f0f74693979d5c4033e662c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - plotPrefab: {fileID: 7380800286755274607, guid: 5376184d00ad241e0bdc760d3ac9a393, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
